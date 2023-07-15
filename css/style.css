@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 .container {
-  background: linear-gradient(85deg, #940d72, rgb(45, 45, 151));
+  background: linear-gradient(45deg, #e20813, rgb(7, 7, 223));
   height: 100dvh;
   width: 100dvw;
   display: flex;
@@ -64,10 +64,17 @@ body {
   height: 30px;
   padding: 5px;
   border-radius: 20px;
+  border: 2px solid rgb(129, 5, 129);
 }
-.inputbox label input:valid ~,
-.inputbox label input:focus ~ {
-  transform: translateX(8px) translateY(-7px);
+.inputbox label input:valid ,
+.inputbox label input:focus {
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.7em;
+  padding: 0 5px;
+  background-color: #ffffff;
+  letter-spacing: 0.1em;
+  border-right: 1px solid rgb(216, 22, 246);
+  border-left: 1px solid rgb(216, 22, 246);
 }
 .inputbox label input :hover {
   border: 2px solid rgb(212, 9, 77);
