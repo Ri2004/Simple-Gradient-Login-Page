@@ -60,22 +60,29 @@ body {
   padding-left: 20px;
 }
 .login_section form input {
-  width: 92%;
-  height: 30px;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 80%;
+  height: 25px;
   padding: 5px;
   border-radius: 20px;
   border: 2px solid rgb(129, 5, 129);
 }
-.inputbox label input:valid ,
-.inputbox label input:focus {
-  transform: translateX(10px) translateY(-7px);
-  font-size: 0.7em;
-  padding: 0 5px;
-  background-color: #ffffff;
-  letter-spacing: 0.1em;
-  border-right: 1px solid rgb(216, 22, 246);
-  border-left: 1px solid rgb(216, 22, 246);
+.login input[type="submit"] {
+  margin-top: 45px;
+  margin-left: 20px;
+  width: 80%;
+  height: 40px;
+  background: linear-gradient(45deg, rgb(117, 4, 117), rgb(10, 10, 211));
+  color: white;
+  font-size: larger;
+  border: none;
 }
-.inputbox label input :hover {
-  border: 2px solid rgb(212, 9, 77);
+.login input[type="submit"]:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.login a input[type="submit"]{
+  text-decoration: none;
 }
