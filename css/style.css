@@ -81,8 +81,16 @@ body {
 .login input[type="submit"]:hover{
   cursor: pointer;
   transform: scale(1.1);
-  transition: 1s;
+  transition: 0.5s;
 }
 .login a input[type="submit"]{
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+.login_section .inputbox a{
+ margin-left: 225px;
+ text-decoration: none;
 }
