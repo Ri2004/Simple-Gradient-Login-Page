@@ -79,23 +79,23 @@ body {
   border: none;
   transition: 0.5s;
 }
-.login input[type="submit"]:hover{
+.login input[type="submit"]:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.5s;
 }
-.login a input[type="submit"]{
+.login a input[type="submit"] {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: x-large;
 }
-.inputbox a{
- margin-left: 235px;
- text-decoration: none;
+.inputbox a {
+  margin-left: 235px;
+  text-decoration: none;
 }
-.social{
+.social {
   margin-top: 20px;
   width: 100%;
   height: 45px;
@@ -103,7 +103,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.social1{
+.social1 {
   width: 30%;
   background-color: rgb(235, 222, 222);
   padding: 8px;
@@ -115,23 +115,23 @@ body {
   box-shadow: 5px 5px 10px rgb(101, 6, 179);
   transition: 0.5s;
 }
-.social1:hover{
+.social1:hover {
   transition: 0.5s;
   transform: scale(0.8);
   cursor: pointer;
 }
-.social1 a{
+.social1 a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 13px;
 }
-.social1 img{
+.social1 img {
   width: 22px;
   height: 22px;
   border-radius: 50%;
 }
-.social2{
+.social2 {
   width: 30%;
   background-color: rgb(235, 222, 222);
   padding: 8px;
@@ -143,28 +143,159 @@ body {
   box-shadow: 5px 5px 10px rgb(101, 6, 179);
   transition: 0.5s;
 }
-.social2:hover{
+.social2:hover {
   transition: 0.5s;
   transform: scale(0.8);
   cursor: pointer;
 }
-.social2 a{
+.social2 a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 13px;
 }
-.social2 img{
+.social2 img {
   width: 22px;
   height: 22px;
   border-radius: 50%;
 }
-.content_right{
+.content_right {
   height: 92dvh;
   width: 45dvw;
   background-color: white;
   border-radius: 0 10px 10px 0;
 }
-.content_right img{
+.content_right .image {
   border-radius: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 578px) {
+  .container {
+    background: linear-gradient(45deg, #e20813, rgb(7, 7, 223));
+    height: 100dvh;
+    width: 100dvw;
+  }
+  .content {
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 92dvh;
+    width: 95dvw;
+    box-shadow: 5px 8px 15px rgb(218, 218, 226);
+    display: flex;
+  }
+  .content_right {
+    height: 0;
+    width: 0;
+  }
+
+  .content_left {
+    height: 92dvh;
+    width: 95dvw;
+    background-color: lightcyan;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .login_section {
+    height: 85dvh;
+    width: 86dvw;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(56, 185, 185);
+  }
+  .image {
+    width: 18rem;
+    height: 18rem;
+    background: none;
+    position: absolute;
+    left: 100px;
+    right: 50px;
+    top: 65px; 
+  }
+  .login_section h2 {
+    font-size: 35px;
+    margin-top: 330px;
+  }
+  .login_section p {
+    font-size: 25px;
+  }
+  .login_section form {
+    padding-left: 10px;
+  }
+  .login_section form input {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 86%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(129, 5, 129);
+  }
+  .inputbox a {
+    margin-left: 280px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .social {
+  margin-top: 20px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social1 {
+  width: 35%;
+  background-color: rgb(235, 222, 222);
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed rgb(17, 17, 243);
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgb(101, 6, 179);
+  transition: 0.5s;
+}
+.social1:hover {
+  transition: 0.5s;
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.social1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+.social1 img {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.social2 {
+  width: 35%;
+  background-color: rgb(235, 222, 222);
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed rgb(17, 17, 243);
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgb(101, 6, 179);
+  transition: 0.5s;
+}
+.social2:hover {
+  transition: 0.5s;
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.social2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+.social2 img {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
 }
