@@ -23,6 +23,7 @@ body {
 }
 .content {
   background-color: aliceblue;
+  display: flex;
   border-radius: 10px;
   height: 92dvh;
   width: 90dvw;
@@ -76,6 +77,7 @@ body {
   color: white;
   font-size: larger;
   border: none;
+  transition: 0.5s;
 }
 .login input[type="submit"]:hover{
   cursor: pointer;
@@ -104,13 +106,14 @@ body {
 .social1{
   width: 30%;
   background-color: rgb(235, 222, 222);
-  padding: 10px;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
   border: 2px dashed rgb(17, 17, 243);
   border-radius: 25px;
   align-items: center;
   box-shadow: 5px 5px 10px rgb(101, 6, 179);
+  transition: 0.5s;
 }
 .social1:hover{
   transition: 0.5s;
@@ -138,6 +141,7 @@ body {
   border-radius: 25px;
   align-items: center;
   box-shadow: 5px 5px 10px rgb(101, 6, 179);
+  transition: 0.5s;
 }
 .social2:hover{
   transition: 0.5s;
@@ -151,7 +155,16 @@ body {
   font-size: 13px;
 }
 .social2 img{
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
+}
+.content_right{
+  height: 92dvh;
+  width: 45dvw;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+.content_right img{
+  border-radius: 0 10px 10px 0;
 }
