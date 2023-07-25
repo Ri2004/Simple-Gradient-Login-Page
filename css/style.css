@@ -46,11 +46,11 @@ body {
   box-shadow: 5px 5px 15px rgb(56, 185, 185);
 }
 .login_section h2 {
-  padding-left: 25px;
+  padding-left: 45px;
   color: rgb(14, 6, 82);
 }
 .login_section p {
-  padding-left: 25px;
+  padding-left: 45px;
   font-size: 20px;
 }
 .login_section p a {
@@ -64,15 +64,16 @@ body {
   margin-left: 20px;
   margin-top: 15px;
   width: 86%;
-  height: 25px;
+  height: 45px;
   padding: 5px;
-  border-radius: 20px;
+  border-radius: 40px;
+  font-size: larger;
   border: 2px solid rgb(129, 5, 129);
 }
 .login input[type="submit"] {
   margin-top: 20px;
   width: 90%;
-  height: 40px;
+  height: 50px;
   background: linear-gradient(45deg, rgb(117, 4, 117), rgb(10, 10, 211));
   color: white;
   font-size: larger;
@@ -89,11 +90,12 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: x-large;
+  font-size: 25px;
 }
 .inputbox a {
-  margin-left: 235px;
+  margin-left: 325px;
   text-decoration: none;
+  font-size: large;
 }
 .social {
   margin-top: 20px;
@@ -106,7 +108,7 @@ body {
 .social1 {
   width: 30%;
   background-color: rgb(235, 222, 222);
-  padding: 8px;
+  padding: 12px;
   display: flex;
   justify-content: space-between;
   border: 2px dashed rgb(17, 17, 243);
@@ -124,7 +126,7 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 18px;
 }
 .social1 img {
   width: 22px;
@@ -134,7 +136,7 @@ body {
 .social2 {
   width: 30%;
   background-color: rgb(235, 222, 222);
-  padding: 8px;
+  padding: 12px;
   display: flex;
   justify-content: space-between;
   border: 2px dashed rgb(17, 17, 243);
@@ -152,7 +154,7 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 18px;
 }
 .social2 img {
   width: 22px;
