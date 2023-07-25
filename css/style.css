@@ -71,7 +71,7 @@ body {
   border: 2px solid rgb(129, 5, 129);
 }
 .login input[type="submit"] {
-  margin-top: 20px;
+  margin-top: 50px;
   width: 90%;
   height: 50px;
   background: linear-gradient(45deg, rgb(117, 4, 117), rgb(10, 10, 211));
