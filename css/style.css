@@ -60,7 +60,17 @@ body {
 .login_section form {
   padding-left: 20px;
 }
-.login_section form input {
+.email input[type="email"]{
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 86%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 40px;
+  font-size: medium;
+  border: 2px solid rgb(129, 5, 129);
+}
+.password input[type="password"] {
   margin-left: 20px;
   margin-top: 15px;
   width: 86%;
@@ -79,6 +89,8 @@ body {
   font-size: larger;
   border: none;
   transition: 0.5s;
+  border-radius: 40px;
+  margin-left: 15px;
 }
 .login input[type="submit"]:hover {
   cursor: pointer;
@@ -98,6 +110,7 @@ body {
   align-items: baseline;
 }
 .inputbox a {
+  margin-top: 10px;
   margin-left: 235px;
   text-decoration: none;
   font-size: medium;
